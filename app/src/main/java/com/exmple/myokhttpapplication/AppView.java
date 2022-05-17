@@ -2,7 +2,8 @@ package com.exmple.myokhttpapplication;
 
 public interface AppView {
 
-    void onMovieDbResult();
-    void onDogApiResult();
+    void getMovieDbResult();
+    void getDogApiResult();
+
 
 }

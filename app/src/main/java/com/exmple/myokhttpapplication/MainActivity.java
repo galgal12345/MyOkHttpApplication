@@ -15,10 +15,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        txtString= findViewById(R.id.themoviedbtest);
         Presenter p  = new Presenter();
-        p.onMovieDbResult();
-        p.onDogApiResult();
+        p.getMovieDbResult();
+        p.getDogApiResult();
 
     }
 

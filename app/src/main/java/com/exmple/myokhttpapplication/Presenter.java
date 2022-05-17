@@ -16,8 +16,6 @@ public class Presenter implements AppView {
 
     OkHttpClient client = new OkHttpClient();
 
-
-
     @Override
     public void getMovieDbResult() {
         onMyGetResponse("https://api.themoviedb.org/3/movie/popular?api_key=1a6249896845e0d12ad0e1a3acc66c5c");

@@ -7,9 +7,6 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity{
 
-    public static final String TAG = "MainActivity";
-    TextView txtString;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
